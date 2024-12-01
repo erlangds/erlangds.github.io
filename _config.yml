@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://erlangds.github.io"
 
 github:
-  username: erlangds_username # change to your GitHub username
+  username: erlangds # change to your GitHub username
 
 twitter:
   username: erlangds_username # change to your Twitter username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/profile.jpg
+avatar: assets/img/profile3.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
