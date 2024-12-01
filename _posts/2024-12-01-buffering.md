@@ -10,7 +10,7 @@ layout: post
 
 ## Introduction
 Introduction
-![urban](assets/img/ass2/assignment2.jpg){: lqip="/assets/img/ass2/assignment2.jpg" }{: w="300" h="800" }{: .right }
+![urban](https://erlangds.github.io/assets/img/ass2/assignment2.jpg){: lqip="/assets/img/ass2/assignment2.jpg" }{: w="300" h="800" }{: .right }
 This StoryMap showcases the Python/ArcPy script developed for NRMT 3350/5132 as part of Assignment 2. The assignment focused on automating the processing of spatial data within a geodatabase using Python and ArcPy. The goal was to read buffer values from a text file, apply these values to create buffer zones around a feature class, and perform intersection analysis with other feature classes.
 
 ## Objective
@@ -98,7 +98,7 @@ for distance in distance_values: #for looping all the distance values
     buffer_output_name = f"roads_{buffer_distance_str}buff" # Create buffer output name
     arcpy.analysis.Buffer("roads", buffer_output_name, f"{distance} Meters")  # Buffer the roads feature class with the current buffer distance
 ```
-![buffer](assets/img/ass2/buffer-08.png){: lqip="/assets/img/ss2/buffer-08.png" }{: .center }_Extracted buffer distance analysis, from left to right : (100 m buffer, 200 m buffer, 300 m buffer, 400 m buffer)_
+![buffer](https://erlangds.github.io/assets/img/ass2/buffer-08.png){: lqip="/assets/img/ss2/buffer-08.png" }{: .center }_Extracted buffer distance analysis, from left to right : (100 m buffer, 200 m buffer, 300 m buffer, 400 m buffer)_
 
 ### 3. Intersecting Feature Classes
 The script systematically intersects feature classes within the geodatabase, focusing on those with "fri" in their names. This is done with the buffered feature classes created earlier. Here’s how the process works:
@@ -118,8 +118,8 @@ for fc in feature_classes: #looping for feature class
             arcpy.analysis.Intersect([fc, buffer_output_name], intersect_output) #intersect between fri and buffer roads
 ```
 <div class="juxtapose" >
-    <img src="/assets/img/ass2/fri_buffer.jpg"  />
-    <img src="/assets/img/ass2/Intersect_400.jpg"  />
+    <img src="https://erlangds.github.io/assets/img/ass2/fri_buffer.jpg"  />
+    <img src="https://erlangds.github.io/assets/img/ass2/Intersect_400.jpg"  />
 </div>
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">

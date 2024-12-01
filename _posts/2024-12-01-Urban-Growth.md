@@ -157,7 +157,7 @@ Map.addLayer(LSTclip, {
 ### Urban Density
 The map shows that there has been a major change of over 10 km in Jakarta, where the initial focus was on northern and central Jakarta. Over the years, this area has expanded significantly to include southern Jakarta and regions to the east, such as Bogor, Tangerang, and South Tangerang.
 
-![urban](assets/img/Jakarta_Urban_Growth/urbangrowth-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/urbangrowth-08.png" }{: .center }_Urban density change from 2004, 2010, 2016, and 2023_
+![urban](https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/urbangrowth-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/urbangrowth-08.png" }{: .center }_Urban density change from 2004, 2010, 2016, and 2023_
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
     <img src="/assets/img/Jakarta_Urban_Growth/urbandensity2004.jpg" style="width: 100%;" />
@@ -169,11 +169,11 @@ _major change of urban density in 2004 (left) vs 2023 (right)_
 
 ## Land Surface Temperature (LST)
 As urbanization increases, the impact of anthropogenic heat release such as from air conditioning systems and energy use in transportation grows. The map illustrates that heat distribution has also expanded, following the trend of increasing urban density. Notably, the area of elevated heat has spread predominantly to the south.
-![LST](assets/img/Jakarta_Urban_Growth/LST-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/LST-08.png" }{: .center }_Land Surface Temperature change from 2004, 2010, 2016, and 2023_
+![LST](https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/LST-08.png" }{: .center }_Land Surface Temperature change from 2004, 2010, 2016, and 2023_
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="/assets/img/Jakarta_Urban_Growth/LST2004.jpg" style="width: 100%;" />
-    <img src="/assets/img/Jakarta_Urban_Growth/LST2023.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2004.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2023.jpg" style="width: 100%;" />
 </div>
 _major change of 2004 LST (left) vs 2023 LST (right) caused by urbanization_
 
@@ -181,7 +181,7 @@ _major change of 2004 LST (left) vs 2023 LST (right) caused by urbanization_
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 Based on the statistics, the average temperature across the years remains relatively stable, ranging from 25 to 30 degrees Celsius. However, anomalies are evident in the data from 2004 and 2023. In 2004, the average temperature ranged from 27 to 30 degrees Celsius, with noticeable increases in the late months (September to December). In contrast, the temperatures in 2010 and 2016 were more stable, averaging between 28 and 29 degrees Celsius. The year 2023, however, experienced the most significant temperature spikes, with values ranging from 27 to 33 degrees Celsius. This increase may be influenced by external factors, such as the El Niño event that occurred in late 2023, rather than solely by urbanization
-![stats](assets/img/Jakarta_Urban_Growth/statistic-08-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/statistic-08-08.png" }{: .center }_LST statistic from 2004 to 2023_
+![stats](https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/statistic-08-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/statistic-08-08.png" }{: .center }_LST statistic from 2004 to 2023_
 
 ## Conclusion
 The temperature range does not drastically increase with urbanization over the years; instead, it changes spatially, aligning with urban density trends. In areas that are already developed, it becomes challenging to build new structures, leading to a point where development becomes constrained and activities stabilize. Consequently, urban activities begin to shift to less developed areas

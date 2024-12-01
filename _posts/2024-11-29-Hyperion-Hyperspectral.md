@@ -32,19 +32,19 @@ This method aims to identify the purest group of pixel characteristics (endmembe
 ## MNF
 The analysis begins with MNF (minimum noise fraction) conversion using ENVI software, with input data from atmospheric correction results. During this process, 163 Hyperion image bands are simplified to the best bands, with initial bands having the least noise and later bands having the most.
 
-![MNF](assets/img/Hyperion/mnf.jpg){: lqip="/assets/img/Hyperion/mnf.jpg" }{: w="300" h="100" }{: .center }_MNF results (the first 12 bands)_
+![MNF](https://erlangds.github.io/assets/img/Hyperion/mnf.jpg){: lqip="/assets/img/Hyperion/mnf.jpg" }{: w="300" h="100" }{: .center }_MNF results (the first 12 bands)_
 
 Spatially, the MNF transformation results show that the initial MNF bands (1-8) clearly depict the Sidoarjo mud puddle with minimal noise. In contrast, the later MNF bands (9-12) have high noise levels, making it difficult to recognize the mud puddle. This trend continues for bands beyond 12. Therefore, the MNF transformation effectively filters the 163 bands down to just 8 bands with the best image quality and least noise.
 
 ## PPI and N-D visualizer
 Pure pixels (PPI) are extracted at this stage and visualized in n-dimensional space, revealing a dense distribution of pixels. These dense pixels share the same spectral characteristics and pixel values, allowing them to be delineated and identified as endmembers. There are 8 endmembers in the study area.
 
-![PPI](assets/img/Hyperion/AI-08.png){: lqip="/assets/img/Hyperion/AI-08.png" }{: .center }_Left: N-D visualizer, illustrating the distribution of pixels with similar values (endmember)., Right: these pixels mapped spatially on the Lapindo mud volcano_
+![PPI](https://erlangds.github.io/assets/img/Hyperion/AI-08.png){: lqip="/assets/img/Hyperion/AI-08.png" }{: .center }_Left: N-D visualizer, illustrating the distribution of pixels with similar values (endmember)., Right: these pixels mapped spatially on the Lapindo mud volcano_
 
 ## Spectra Matching (Training data)
 Since Random Forest is a supervised classification method, the input data must be labeled. Therefore, the Spectral Analyst tool is used to identify the mineral types to be used as labels by matching the endmember spectra with reference spectra from the  USGS . For example, endmember 2 has three water absorption regions and an Al-OH metal hydroxyl absorption at a wavelength of 2203 nm, which matches the spectral characteristics of the montmorillonite.
 
-![spectra](assets/img/Hyperion/montmorilonit.jpg){: lqip="/assets/img/Hyperion/montmorilonit.jpg" }{: .center }_Endmember 2 has a similar spectrum to montmorillonite_
+![spectra](https://erlangds.github.io/assets/img/Hyperion/montmorilonit.jpg){: lqip="/assets/img/Hyperion/montmorilonit.jpg" }{: .center }_Endmember 2 has a similar spectrum to montmorillonite_
 
 The same process was applied to all 8 endmember spectra. Then, all pixel data with labels were trained and mapped using the Random Forest Algorithm.
 
@@ -52,16 +52,16 @@ The same process was applied to all 8 endmember spectra. Then, all pixel data wi
 The resulting maps appear to make geological sense, showing that the mineral distribution is spread in a circular pattern. The composition is predominantly a mixture of kaolinite and smectite, covering 46.37% of the study area.
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="/assets/img/Hyperion/SIdoarjo_polos.jpg" style="width: 100%;" />
-    <img src="/assets/img/Hyperion/SIdoarjo.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo_polos.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo.jpg" style="width: 100%;" />
 </div>
 
 
 The Random Forest algorithm successfully classified the Hyperion hyperspectral image with an overall accuracy (OA) of 99.4% and a kappa score of 0.993, slightly higher than the SVM algorithm's 98.9% OA and 0.987 kappa score. The source of error came from the misclassification of the mineral montmorillonite. The H2O absorption regions and the Al-OH metal hydroxyl absorption played the most significant roles in model creation.
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="/assets/img/Hyperion/RF.png" style="width: 100%;" />
-    <img src="/assets/img/Hyperion/SVM.png" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/RF.png" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SVM.png" style="width: 100%;" />
 </div>
 
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
