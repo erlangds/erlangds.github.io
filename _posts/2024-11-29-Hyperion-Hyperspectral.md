@@ -52,16 +52,16 @@ The same process was applied to all 8 endmember spectra. Then, all pixel data wi
 The resulting maps appear to make geological sense, showing that the mineral distribution is spread in a circular pattern. The composition is predominantly a mixture of kaolinite and smectite, covering 46.37% of the study area.
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo_polos.jpg" style="width: 100%;" />
-    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo_polos.jpg" alt="before classified" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SIdoarjo.jpg" alt="after classified" style="width: 100%;" />
 </div>
 
 
 The Random Forest algorithm successfully classified the Hyperion hyperspectral image with an overall accuracy (OA) of 99.4% and a kappa score of 0.993, slightly higher than the SVM algorithm's 98.9% OA and 0.987 kappa score. The source of error came from the misclassification of the mineral montmorillonite. The H2O absorption regions and the Al-OH metal hydroxyl absorption played the most significant roles in model creation.
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="https://erlangds.github.io/assets/img/Hyperion/RF.png" style="width: 100%;" />
-    <img src="https://erlangds.github.io/assets/img/Hyperion/SVM.png" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/RF.png" alt="random forest" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Hyperion/SVM.png" alt= "SVM" style="width: 100%;" />
 </div>
 
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>

@@ -98,7 +98,7 @@ for distance in distance_values: #for looping all the distance values
     buffer_output_name = f"roads_{buffer_distance_str}buff" # Create buffer output name
     arcpy.analysis.Buffer("roads", buffer_output_name, f"{distance} Meters")  # Buffer the roads feature class with the current buffer distance
 ```
-![buffer](https://erlangds.github.io/assets/img/ass2/buffer-08.png){: lqip="/assets/img/ss2/buffer-08.png" }{: .center }_Extracted buffer distance analysis, from left to right : (100 m buffer, 200 m buffer, 300 m buffer, 400 m buffer)_
+![buffer](https://erlangds.github.io/assets/img/ass2/buffer-08.png){: lqip="/assets/img/ass2/buffer-08.png" }{: .center }_Extracted buffer distance analysis, from left to right : (100 m buffer, 200 m buffer, 300 m buffer, 400 m buffer)_
 
 ### 3. Intersecting Feature Classes
 The script systematically intersects feature classes within the geodatabase, focusing on those with "fri" in their names. This is done with the buffered feature classes created earlier. Here’s how the process works:
@@ -118,8 +118,8 @@ for fc in feature_classes: #looping for feature class
             arcpy.analysis.Intersect([fc, buffer_output_name], intersect_output) #intersect between fri and buffer roads
 ```
 <div class="juxtapose" >
-    <img src="https://erlangds.github.io/assets/img/ass2/fri_buffer.jpg"  />
-    <img src="https://erlangds.github.io/assets/img/ass2/Intersect_400.jpg"  />
+    <img src="https://erlangds.github.io/assets/img/ass2/fri_buffer.jpg" alt= "buffer result"  />
+    <img src="https://erlangds.github.io/assets/img/ass2/Intersect_400.jpg" alt= "buffer intersected" />
 </div>
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">

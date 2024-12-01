@@ -160,20 +160,19 @@ The map shows that there has been a major change of over 10 km in Jakarta, where
 ![urban](https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/urbangrowth-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/urbangrowth-08.png" }{: .center }_Urban density change from 2004, 2010, 2016, and 2023_
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="/assets/img/Jakarta_Urban_Growth/urbandensity2004.jpg" style="width: 100%;" />
-    <img src="/assets/img/Jakarta_Urban_Growth/urbandensity2023.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/urbandensity2004.jpg" alt="urban density 2004" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/urbandensity2023.jpg" alt= "urban density 2023" style="width: 100%;" />
 </div>
 
 
-_major change of urban density in 2004 (left) vs 2023 (right)_
 
 ## Land Surface Temperature (LST)
 As urbanization increases, the impact of anthropogenic heat release such as from air conditioning systems and energy use in transportation grows. The map illustrates that heat distribution has also expanded, following the trend of increasing urban density. Notably, the area of elevated heat has spread predominantly to the south.
 ![LST](https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST-08.png){: lqip="/assets/img/Jakarta_Urban_Growth/LST-08.png" }{: .center }_Land Surface Temperature change from 2004, 2010, 2016, and 2023_
 
 <div class="juxtapose" style="max-width: 450px; margin: auto;">
-    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2004.jpg" style="width: 100%;" />
-    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2023.jpg" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2004.jpg" alt= "Land Surface Temperature 2004" style="width: 100%;" />
+    <img src="https://erlangds.github.io/assets/img/Jakarta_Urban_Growth/LST2023.jpg" alt= "Land Surface Temperature 2023" style="width: 100%;" />
 </div>
 _major change of 2004 LST (left) vs 2023 LST (right) caused by urbanization_
 
