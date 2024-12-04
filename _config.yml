@@ -16,7 +16,7 @@ timezone:
 
 title: Erlangds # the main title
 
-tagline: A Curated Collection of My Projects and Practices # it will display as the subtitle
+tagline: A Curated Collection of My Projects and Analysis # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   porto, responsive and feature-rich Jekyll theme for technical writing.
