@@ -7,9 +7,6 @@ categories: [business]
 # Adaro Andalan Indonesia
 what happen in ADRO = 
 
-![Profile Picture](assets/img/profile.jpg)
-
-
 - Singapore mau import listrik bersih hingga 4GW sampe 2035.
 - September 2023, Indo ttd MoU dgn singapore, export 2GW clean low carbon electricity
 - 5 perusahaan indo terlibat : Pacific Medco Solar Energy, Medco Power, PacificLight Power, Gallant Venture Ltd (a Salim Group company), Adaro Green, and TBS Energi Utama (TOBA).
