@@ -1,6 +1,5 @@
 ---
-#image: /assets/img/subsidence background.jpg # or base64 URI
-title: "Missing well Logs data Regression"
+title: "Machine Learning for Missing well Logs data Regression"
 tag: [Machine Learning]
 date: 2025-03-25 00:00:00 +0800
 categories: [Oil and Gas]
@@ -19,7 +18,6 @@ Data yang digunakan adalah data logging sumur dari Volve field, Norwegia, yang d
 Ada banyak sumber open source lain yang dapat digunakan sebagai sumber, beberapa yang mudah diakses antara lain :
 Western Australia NOPIMS: https://www.ga.gov.au/nopims
 NLOG Dutch Oil and Gas Portal: https://www.nlog.nl/en/welcome-nlog
-Kansas Geological Society: https://www.kgs.ku.edu/Magellan/Logs/...
 Pada studi ini, analisis dilakukan sepenuhnya di google colab
 
 ```python
